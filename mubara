@@ -1,0 +1,353 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mubara Saleem's portfolio — BS Mathematics student at Bahauddin Zakariya University, Multan, interested in cryptography, optimization theory, game theory, machine learning, and generative AI.">
+  <title>Mubara Saleem | Mathematics & AI Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">Math<span>×</span>AI</a>
+
+      <button class="menu-toggle" id="menu-toggle"
+              aria-label="Toggle navigation" aria-expanded="false">
+        ☰
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" class="theme-toggle"
+                aria-label="Switch color theme">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">MATHEMATICS · TECHNOLOGY · INNOVATION</p>
+          <h1>Hello, I'm <span class="gradient-text">Mubara Saleem</span></h1>
+          <h2>Final-Year BS Mathematics Student | Aspiring Researcher</h2>
+          <p class="hero-description">
+            Exploring the mathematical foundations of cryptography,
+            optimization, game theory, machine learning, and generative AI.
+            I enjoy connecting mathematical ideas with practical computing
+            problems.
+          </p>
+
+          <div class="hero-buttons">
+            <a class="btn btn-primary" href="#projects">Explore My Interests</a>
+            <a class="btn btn-secondary" href="#contact">Contact Me</a>
+          </div>
+
+          <div class="hero-tags">
+            <span>Mathematics</span>
+            <span>Python</span>
+            <span>Artificial Intelligence</span>
+          </div>
+        </div>
+
+        <div class="math-art" aria-label="Mathematical symbols">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="math-symbol sigma">Σ</div>
+          <div class="math-symbol integral">∫</div>
+          <div class="math-symbol pi">π</div>
+          <div class="math-symbol infinity">∞</div>
+          <div class="math-caption">Think mathematically.<br>Build intelligently.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-card">
+          <div class="about-mark">∑</div>
+          <div>
+            <h3>A Mathematics Student with an Interest in AI</h3>
+            <p>
+              My name is Mubara Saleem, and I am a final-year
+              Bachelor of Science (BS) Mathematics student at
+              Bahauddin Zakariya University, Multan, Pakistan.
+              I am developing my knowledge of mathematical reasoning,
+              analytical thinking, and computational problem-solving.
+            </p>
+            <p>
+              My academic interests include cryptography, optimization theory,
+              game theory, machine learning, and generative AI. I am interested
+              in understanding the mathematics behind secure communication,
+              intelligent algorithms, strategic decision-making, and
+              emerging artificial intelligence systems.
+            </p>
+            <p>
+              My goal is to continue learning, develop practical projects,
+              and explore opportunities in research and technology.
+            </p>
+            <p class="education">
+              <strong>Degree:</strong> BS Mathematics — Final Year
+              <br>
+              <strong>University:</strong> Bahauddin Zakariya University, Multan
+              <br>
+              <strong>Location:</strong> Multan, Pakistan
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <p class="eyebrow">WHAT I AM LEARNING</p>
+        <h2 class="section-title">Areas of Interest</h2>
+        <p class="section-intro">
+          My academic interests connect pure mathematics, applied mathematics,
+          computation, and artificial intelligence.
+        </p>
+
+        <div class="card-grid">
+          <article class="interest-card">
+            <div class="card-icon">🔐</div>
+            <h3>Cryptography</h3>
+            <p>
+              Number theory, modular arithmetic, finite fields, encryption,
+              decryption, and cryptographic algorithms.
+            </p>
+            <span class="card-label">Security & Mathematics</span>
+          </article>
+
+          <article class="interest-card">
+            <div class="card-icon">📈</div>
+            <h3>Optimization Theory</h3>
+            <p>
+              Linear programming, constrained optimization, objective
+              functions, and mathematical optimization methods.
+            </p>
+            <span class="card-label">Optimization</span>
+          </article>
+
+          <article class="interest-card">
+            <div class="card-icon">♟️</div>
+            <h3>Game Theory</h3>
+            <p>
+              Strategic decision-making, payoff matrices, Nash equilibrium,
+              and competitive or cooperative models.
+            </p>
+            <span class="card-label">Strategic Modeling</span>
+          </article>
+
+          <article class="interest-card">
+            <div class="card-icon">🤖</div>
+            <h3>Machine Learning</h3>
+            <p>
+              Data analysis, supervised learning, model evaluation,
+              prediction, and the mathematical foundations of learning.
+            </p>
+            <span class="card-label">Data & Algorithms</span>
+          </article>
+
+          <article class="interest-card">
+            <div class="card-icon">✨</div>
+            <h3>Generative AI</h3>
+            <p>
+              Large language models, prompt engineering, AI-powered
+              applications, and generative systems.
+            </p>
+            <span class="card-label">Emerging Technology</span>
+          </article>
+
+          <article class="interest-card">
+            <div class="card-icon">∑</div>
+            <h3>Applied Mathematics</h3>
+            <p>
+              Mathematical modeling, logical reasoning, problem-solving,
+              and applying mathematical concepts to real-world problems.
+            </p>
+            <span class="card-label">Research & Modeling</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="eyebrow">LEARN BY BUILDING</p>
+        <h2 class="section-title">Projects & Research Interests</h2>
+        <p class="section-intro">
+          These are project ideas I plan to develop as I continue learning.
+          I will add links to completed projects and their source code
+          as they become available.
+        </p>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-number">PROJECT 01</div>
+            <h3>Cryptography Learning Toolkit</h3>
+            <p>
+              An educational application demonstrating encryption,
+              decryption, modular arithmetic, and introductory cipher analysis.
+            </p>
+            <div class="project-tags">
+              <span>Python</span><span>Cryptography</span><span>Number Theory</span>
+            </div>
+            <span class="project-status">Planned project</span>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">PROJECT 02</div>
+            <h3>Optimization Problem Solver</h3>
+            <p>
+              A tool for exploring linear programming problems, objective
+              functions, constraints, and graphical solutions.
+            </p>
+            <div class="project-tags">
+              <span>Python</span><span>Optimization</span><span>Visualization</span>
+            </div>
+            <span class="project-status">Planned project</span>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">PROJECT 03</div>
+            <h3>Game Theory Simulator</h3>
+            <p>
+              An interactive demonstration of payoff matrices, best responses,
+              and Nash equilibrium in simple games.
+            </p>
+            <div class="project-tags">
+              <span>Game Theory</span><span>Python</span><span>Algorithms</span>
+            </div>
+            <span class="project-status">Planned project</span>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">PROJECT 04</div>
+            <h3>Machine Learning Explorer</h3>
+            <p>
+              A beginner-friendly project exploring a dataset, training a
+              machine learning model, and evaluating its performance.
+            </p>
+            <div class="project-tags">
+              <span>Python</span><span>ML</span><span>Data Analysis</span>
+            </div>
+            <span class="project-status">Planned project</span>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">PROJECT 05</div>
+            <h3>AI Notes Summarizer</h3>
+            <p>
+              An AI-powered application that converts lengthy notes into
+              concise summaries and organized study points.
+            </p>
+            <div class="project-tags">
+              <span>Generative AI</span><span>Python</span><span>NLP</span>
+            </div>
+            <span class="project-status">Planned project</span>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">PROJECT 06</div>
+            <h3>Mathematics for AI</h3>
+            <p>
+              A collection of explanations and code examples covering
+              linear algebra, probability, and optimization for machine learning.
+            </p>
+            <div class="project-tags">
+              <span>Mathematics</span><span>Python</span><span>AI</span>
+            </div>
+            <span class="project-status">Planned project</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="goals">
+      <div class="container">
+        <p class="eyebrow">LOOKING AHEAD</p>
+        <h2 class="section-title">My Academic Goals</h2>
+        <div class="goals-grid">
+          <div class="goal-item">
+            <span>01</span>
+            <div>
+              <h3>Strengthen Mathematical Foundations</h3>
+              <p>Develop a deeper understanding of mathematical theories and algorithms.</p>
+            </div>
+          </div>
+
+          <div class="goal-item">
+            <span>02</span>
+            <div>
+              <h3>Build Practical Projects</h3>
+              <p>Turn mathematical ideas into working Python and AI applications.</p>
+            </div>
+          </div>
+
+          <div class="goal-item">
+            <span>03</span>
+            <div>
+              <h3>Explore Research</h3>
+              <p>Investigate problems at the intersection of mathematics, security, and AI.</p>
+            </div>
+          </div>
+
+          <div class="goal-item">
+            <span>04</span>
+            <div>
+              <h3>Share My Learning</h3>
+              <p>Document my work and share educational resources on GitHub.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-card">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2 class="section-title">Have a Question or Opportunity?</h2>
+        <p>
+          I welcome academic discussions, collaborative learning,
+          research opportunities, and projects involving mathematics and AI.
+        </p>
+
+        <div class="contact-links">
+          <a class="btn btn-primary" href="mailto:your.email@example.com">
+            Email Me
+          </a>
+
+          <a class="btn btn-secondary"
+             href="https://github.com/YOUR-USERNAME"
+             target="_blank" rel="noopener noreferrer">
+            GitHub Profile
+          </a>
+
+          <a class="btn btn-secondary"
+             href="https://www.linkedin.com/in/YOUR-USERNAME/"
+             target="_blank" rel="noopener noreferrer">
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Mubara Saleem · Mathematics, Cryptography & AI</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
